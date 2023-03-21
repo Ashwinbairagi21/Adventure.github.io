@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Adventure</title>
+</head>
+<body>
+    <!---- Navbar --->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-link">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#footer">About</a></li>
+            <li class="ctn"><a href="#footer"></a>Contact</li>
+        </ul>
+        <img src="img/middle-menu-btn.png" alt="png" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content" id="home">
+            <h2>Explore The Colorful world</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+         </div>
+    </header>
+    <!---  Events -->
+     <section class="events" id="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+            </div>
+            <div class="row">
+            <div class="col">
+                <img src="img/hill-climbing.jpg" alt="">
+                <h4>Everest Camp Track</h4>
+                <p>We are oraganizing an event very soon. Everest will be 
+                    targeted and a camp will be set up on hill.
+                </p>
+            <a href="#" class="ctn">Learn More</a>
+            </div>
+                <div class="col">
+                    <img src="img/walking-tours-1.png" alt="">
+                    <h4>Walking Holidays</h4>
+                    <p>The event of walking on holidays will be started 
+                        because adventure is enjoyful with the help of walking.
+                    </p>
+                <a href="#" class="ctn">Learn More</a>
+                </div>
+                </div>
+     </section>
+      
+     <section class="explore" id="explore">
+       <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Travelling is an amazing way to learn a lot of things in life. A lot of people around
+             the world travel every year to many places. Moreover, it is important to travel every year to humans.
+            Some travel to learn more while some travel to take a break from their life.
+            No matter the reason, travelling opens a big door for us to explore the world beyond our 
+            imagination and indulge in many things.</p>
+    <a href="#" class="ctn">Learn More</a>
+    </div> 
+    </section>
+    
+    <section class="tours" id="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>We are oraganizing new events for adventure. Our team is very apppericiate for explore the world. We have organizing many diffrent diffrent events for adventures.
+                  We are also close to nature in future.</P>
+                 <a href="#" class="ctn">Learn More</a>   
+            </div>
+            <div class="col image-col">
+            <div class="image-gallery">
+                <img src="img/girl-river-image.jpg" alt="">
+                <img src="img/terre-picture.jpg" alt="">
+                <img src="img/man-travel.jpg" alt="">
+                <img src="img/boat-image.jpg" alt="">                
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/ashwin.bairagi.16?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/ashwin_vaishnv?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-snapchat"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div> 
+        <p>Address:- 1st floor, Apex Complex, Near Showroom Choraha, Neemuch 458330 (M.P.)</p>
+        <span>Copyrights 2023 @ Adventure Outdoor</span>
+    </section>
+    <!---JavaScript--->
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlink = document.querySelector('.nav-link')
+
+        menuBtn.addEventListener('click',()=>{
+            navlink.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
